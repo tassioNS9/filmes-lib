@@ -1,0 +1,29 @@
+@charset "UT-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+
+html, body{
+    background-color: black;
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    font-weight: bold;
+    color: brown;
+    transition: .5s;
+}
+
+a:hover{
+    color: rgb(100, 37, 37);
+}
+
+.query-text{
+    color: brown;
+}

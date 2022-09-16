@@ -3,6 +3,7 @@ import { useState, useEffect } from "react";
 import { useSearchParams } from "react-router-dom"; // permite pegar a querystring da url
 import MovieCard from "../../components/MovieCard/MovieCard";
 import Navbar from "../../components/Navbar/Navbar";
+import "./styles.css";
 
 const apiKey = import.meta.env.VITE_API_KEY
 const searchURL = import.meta.env.VITE_SEARCH

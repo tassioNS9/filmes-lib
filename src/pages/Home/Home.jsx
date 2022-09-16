@@ -8,8 +8,6 @@ function Home() {
     const moviesURL = import.meta.env.VITE_API;
     const apiKey = import.meta.env.VITE_API_KEY;
 
-
-    console.log(moviesURL, apiKey);
     const [topMovies, setTopMovies] = useState([]);
 
 
@@ -18,7 +16,6 @@ function Home() {
         const res = await fetch(url);
         const data = await res.json();
         setTopMovies(data.results);
-        console.log(data.results)
     }
 
 

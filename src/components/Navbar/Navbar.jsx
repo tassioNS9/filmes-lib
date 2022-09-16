@@ -22,9 +22,9 @@ const Navbar = () => {
     return (
         <nav id="navbar">
             <h2>
-                <Link to="/"><BiCameraMovie id="icon-camera"/>Neves Filmes</Link>
+                <Link to="/"><BiCameraMovie id="icon-camera"/>TN Filmes</Link>
             </h2>
-            <form onSubmit={handleSubmit} action="" method="post">
+            <form onSubmit={handleSubmit}>
                 <input type="search" placeholder="Busque um filme"
                  name="" id="isearch" value={search} onChange={(e)=>setSearch(e.target.value)} />
                 <button type="submit"><BiSearchAlt2/></button>

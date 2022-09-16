@@ -1,7 +1,6 @@
 
 import './styles.css'
 import { useState, useEffect } from "react";
-import Navbar from '../../components/Navbar/Navbar';
 import MovieCard from '../../components/MovieCard/MovieCard';
 
 function Home() {

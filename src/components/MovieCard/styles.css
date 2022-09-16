@@ -34,3 +34,14 @@
 .movies-container div svg{
     color: #f7d354;
 }
+
+.movie-card a{
+    text-align: center;
+    border: 2px solid ;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px;
+    border-radius: 4px;
+    color: brown;
+    transition: .5s;
+}

@@ -4,3 +4,12 @@
     margin-top: 20px;
     text-align: center;
 }
+
+@media screen and (max-width:768px) {
+    
+.title{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 1.7em;
+}
+}

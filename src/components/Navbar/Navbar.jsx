@@ -21,7 +21,7 @@ const Navbar = () => {
 
     return (
         <nav id="navbar">
-            <h2>
+            <h2 className='logo'>
                 <Link to="/"><BiCameraMovie id="icon-camera"/>TN Filmes</Link>
             </h2>
             <form onSubmit={handleSubmit}>

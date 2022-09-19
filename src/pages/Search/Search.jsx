@@ -40,8 +40,10 @@ const Search = () => {
             <div className='container'>
                 <h1 className='title'>Resultados para : <span className="query-text">{query}</span></h1>
                 <div className='movies-container'>
-                    {movies.length === 0 && <p>Carregando Filmes...</p>}
+                    {movies.length === 0 && <p>Resultado não encontrado!</p>}
+                    {console.log(movies.length)}
                     {movies.length > 0 && movies.map((movie) => <MovieCard key={movie.id} movie={movie} />)}
+
                 </div>
             </div>
         </>
